@@ -1,2 +1,2 @@
-# PersonalSite
+# Personal Site
 My personal website
