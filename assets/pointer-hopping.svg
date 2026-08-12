@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 180" role="img" aria-labelledby="title desc">
+  <title id="title">Pointer hopping</title>
+  <desc id="desc">A sequence follows pointers from node 03 to 11 to 07 to 14.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0 0 L8 4 L0 8 Z" fill="#a85327"/>
+    </marker>
+  </defs>
+  <rect width="520" height="180" rx="8" fill="#f3f0e9"/>
+  <text x="24" y="30" fill="#6f6d66" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="10" font-weight="700" letter-spacing="1.5">FOLLOW THE POINTER</text>
+  <g fill="none" stroke="#a85327" stroke-width="2" marker-end="url(#arrow)">
+    <path d="M91 91 C116 58 143 58 168 91"/>
+    <path d="M221 91 C246 124 273 124 298 91"/>
+    <path d="M351 91 C376 58 403 58 428 91"/>
+  </g>
+  <g font-family="ui-monospace, SFMono-Regular, Consolas, monospace" text-anchor="middle">
+    <g>
+      <circle cx="65" cy="101" r="26" fill="#fbfaf7" stroke="#a85327" stroke-width="2"/>
+      <text x="65" y="106" fill="#20201e" font-size="15" font-weight="700">03</text>
+    </g>
+    <g>
+      <circle cx="195" cy="101" r="26" fill="#fbfaf7" stroke="#a85327" stroke-width="2"/>
+      <text x="195" y="106" fill="#20201e" font-size="15" font-weight="700">11</text>
+    </g>
+    <g>
+      <circle cx="325" cy="101" r="26" fill="#fbfaf7" stroke="#a85327" stroke-width="2"/>
+      <text x="325" y="106" fill="#20201e" font-size="15" font-weight="700">07</text>
+    </g>
+    <g>
+      <circle cx="455" cy="101" r="26" fill="#a85327"/>
+      <text x="455" y="106" fill="#fbfaf7" font-size="15" font-weight="700">14</text>
+    </g>
+    <g fill="#6f6d66" font-size="9">
+      <text x="130" y="58">HOP 1</text>
+      <text x="260" y="142">HOP 2</text>
+      <text x="390" y="58">HOP 3</text>
+    </g>
+  </g>
+</svg>

@@ -1,77 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Pranay Agrawal</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Pranay Agrawal — Software Engineering student at VIT Vellore, building towards Safe AGI.">
+    <title>Pranay Agrawal</title>
+    <meta name="description" content="Pranay Agrawal is an undergraduate at VIT Vellore exploring deep learning, interpretability, and reasoning from first principles.">
+    <meta name="theme-color" content="#fbfaf7">
+    <meta property="og:title" content="Pranay Agrawal">
+    <meta property="og:description" content="Deep learning, interpretability, and reasoning from first principles.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ryuk7728.github.io/PersonalSite/">
+    <link rel="canonical" href="https://ryuk7728.github.io/PersonalSite/">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header class="site-header">
+        <a class="wordmark" href="#top" aria-label="Pranay Agrawal, home">PA</a>
+        <nav class="site-nav" aria-label="Primary navigation">
+            <a href="#work">Work</a>
+            <a href="#writing">Writing</a>
+            <a href="#about">About</a>
+        </nav>
+    </header>
 
-    <main>
-
-        <!-- Hero -->
-        <h1 class="hero-name">Pranay Agrawal</h1>
-
-        <section class="hero">
-            <div class="hero-text">
-                <p>Final Year Software Engineering Student @ <a href="https://www.vit.ac.in" target="_blank">VIT Vellore</a>.</p>
-
-                <p>Science and Technology have been the major drivers towards progress of humanity
-                for the past 10000 years. The same will be true for the next 10000.</p>
-
-                <p>My goal is to discover and implement the last few ideas that push humanity towards
-                Safe <a href="https://en.wikipedia.org/wiki/Artificial_general_intelligence" target="_blank">Artificial General Intelligence</a>,
-                which is potentially the last invention humanity will ever create.</p>
-
-                <nav class="social-links">
+    <main id="top">
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="hero-copy">
+                <p class="eyebrow">Pranay Agrawal</p>
+                <h1 id="hero-title">Lover of science.<br>Believer in deep learning.</h1>
+                <p class="hero-intro">Undergraduate at <a href="https://vit.ac.in" target="_blank" rel="noopener noreferrer">VIT Vellore</a>. I enjoy approaching research ideas from first principles and attacking them until they break or reveal something interesting.</p>
+                <nav class="social-links" aria-label="Social links">
+                    <a href="https://x.com/praggr" target="_blank" rel="noopener noreferrer">X</a>
+                    <a href="https://www.linkedin.com/in/pragrr" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    <a href="https://medium.com/@ryuk7728" target="_blank" rel="noopener noreferrer">Medium</a>
+                    <a href="https://github.com/ryuk7728" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    <a href="https://drive.google.com/file/d/1vsaew3CqGnvH2zMXYQZNaZtLEzl3rBSq/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a>
                     <a href="mailto:pranayagrawal7728@gmail.com">Email</a>
-                    <span>/</span>
-                    <a href="https://x.com/praggr" target="_blank">Twitter</a>
-                    <span>/</span>
-                    <a href="https://www.linkedin.com/in/pragrr/" target="_blank">LinkedIn</a>
-                    <span>/</span>
-                    <a href="https://github.com/ryuk7728" target="_blank">GitHub</a>
                 </nav>
             </div>
 
-            <div class="hero-photo">
-                <img src="IMG_20260326_172346419_HDR.jpg" alt="Pranay Agrawal">
-            </div>
+            <figure class="hero-photo">
+                <img src="IMG_20260326_172346419_HDR.jpg" alt="Portrait of Pranay Agrawal" width="190" height="190">
+            </figure>
         </section>
 
-        <!-- Works -->
-        <section class="works">
-            <h2>Works</h2>
+        <section class="section" id="work" aria-labelledby="work-title">
+            <div class="section-heading">
+                <p class="section-index">01</p>
+                <h2 id="work-title">Selected work</h2>
+            </div>
 
-            <div class="project-card">
-                <div class="project-thumb">
-                    <img src="project.png" alt="Superhuman AI for a Card Game">
-                </div>
-                <div class="project-details">
-                    <h3>
-                        <a href="https://www.linkedin.com/pulse/i-built-superhuman-ai-card-game-heres-how-did-pranay-agrawal-wew9c" target="_blank">
-                            Superhuman AI for a Card Game
-                        </a>
-                    </h3>
-                    <p>Inspired by AlphaGo, In Dec 2024 I set out to build an AI for a card game called "28" with the goal of making it superhuman. I tried many approaches, failed at
-                    most, but a few simple things worked really well. In Jan 2026, I finished my mission. To know more checkout the links below:</p>
+            <article class="project">
+                <a class="project-visual image-visual" href="https://github.com/ryuk7728/Frontier-AI-AutoEncoder" target="_blank" rel="noopener noreferrer" aria-label="View Autoencoder project code">
+                    <img src="assets/autoencoder-reconstructions.png" alt="Original CIFAR-10 images beside their autoencoder reconstructions" loading="lazy">
+                </a>
+                <div class="project-copy">
+                    <p class="project-meta">Deep learning · 2026</p>
+                    <h3><a href="https://github.com/ryuk7728/Frontier-AI-AutoEncoder" target="_blank" rel="noopener noreferrer">Autoencoders: Teaching Neural Networks to Compress</a></h3>
+                    <p>Trained seven residual convolutional autoencoders on CIFAR-10 to map the tradeoff between compression and reconstruction quality. A 512-value latent reached <strong>30.02 dB PSNR</strong> at a <strong>6x reduction</strong> in representation size.</p>
                     <div class="project-links">
-                        <a href="https://www.linkedin.com/pulse/i-built-superhuman-ai-card-game-heres-how-did-pranay-agrawal-wew9c" target="_blank">LinkedIn Writeup</a>
-                        <span>/</span>
-                        <a href="https://www.youtube.com/watch?v=x42JGBfRcXM" target="_blank">Video</a>
-                        <span>/</span>
-                        <a href="https://28-public.vercel.app/" target="_blank">Play the Bot</a>
-                        <span>/</span>
-                        <a href="https://github.com/ryuk7728/28-Superhuman-UI/tree/v2.1-branch-public" target="_blank">Code</a>
+                        <a href="https://github.com/ryuk7728/Frontier-AI-AutoEncoder" target="_blank" rel="noopener noreferrer">Code</a>
+                        <a href="https://tiny-autoencoder.vercel.app/" target="_blank" rel="noopener noreferrer">Live demo</a>
+                        <a href="https://medium.com/@ryuk7728/neural-networks-can-learn-to-compress-7b1021939cbf" target="_blank" rel="noopener noreferrer">Essay</a>
                     </div>
                 </div>
-            </div>
+            </article>
 
+            <article class="project">
+                <a class="project-visual image-visual plot-visual" href="https://github.com/ryuk7728/ResidualTest" target="_blank" rel="noopener noreferrer" aria-label="View residual networks experiment code">
+                    <img src="assets/residual-depth.png" alt="Accuracy by depth for plain and residual convolutional networks" loading="lazy">
+                </a>
+                <div class="project-copy">
+                    <p class="project-meta">Controlled experiment · 2026</p>
+                    <h3><a href="https://github.com/ryuk7728/ResidualTest" target="_blank" rel="noopener noreferrer">Residual Networks at Extreme Depth</a></h3>
+                    <p>Tested whether deep CNNs preserve a <strong>single-bit signal</strong> across all 65,536 inputs and eight seeds. Plain networks lost it by layer 16; residual networks kept it through 256.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/ryuk7728/ResidualTest" target="_blank" rel="noopener noreferrer">Code</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="project">
+                <a class="project-visual image-visual dream-visual" href="https://github.com/ryuk7728/Frontier-AI-MLP" target="_blank" rel="noopener noreferrer" aria-label="View MLP interpretability project code">
+                    <img src="assets/activation-maximization.png" alt="Activation-maximized inputs for the ten MNIST output classes" loading="lazy">
+                </a>
+                <div class="project-copy">
+                    <p class="project-meta">Interpretability · 2026</p>
+                    <h3><a href="https://github.com/ryuk7728/Frontier-AI-MLP" target="_blank" rel="noopener noreferrer">MLP Interpretability and Activation Maximization</a></h3>
+                    <p>Implemented a <strong>7,960-parameter MLP and backpropagation from scratch in NumPy</strong>, reaching 91.61% test accuracy on MNIST. Then used input gradients to reveal the patterns that most strongly activate each output class.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/ryuk7728/Frontier-AI-MLP" target="_blank" rel="noopener noreferrer">Code</a>
+                        <a href="https://medium.com/@ryuk7728/do-neurons-dream-of-handwritten-digits-af6631a8c449" target="_blank" rel="noopener noreferrer">Essay</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="project">
+                <a class="project-visual image-visual bot-visual" href="https://github.com/ryuk7728/28-Superhuman-UI/tree/v2.1-branch-public" target="_blank" rel="noopener noreferrer" aria-label="View 28 Superhuman Bot code">
+                    <img src="project.png" alt="A completed trick from the 28 Superhuman Bot interface" loading="lazy">
+                </a>
+                <div class="project-copy">
+                    <p class="project-meta">Search systems · 2024 to 2026</p>
+                    <h3><a href="https://github.com/ryuk7728/28-Superhuman-UI/tree/v2.1-branch-public" target="_blank" rel="noopener noreferrer">28 Superhuman Bot</a></h3>
+                    <p>Built an agent for the Indian card game 28 using <strong>Perfect-Information Monte Carlo rollouts</strong> with multi-trick minimax lookahead. It achieved an <strong>88% win rate</strong> against experienced players and scaled to 32 Google Cloud vCPUs with Ray.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/ryuk7728/28-Superhuman-UI/tree/v2.1-branch-public" target="_blank" rel="noopener noreferrer">Code</a>
+                        <a href="https://www.linkedin.com/pulse/i-built-superhuman-ai-card-game-heres-how-did-pranay-agrawal-wew9c" target="_blank" rel="noopener noreferrer">Writeup</a>
+                        <a href="https://www.youtube.com/watch?v=x42JGBfRcXM" target="_blank" rel="noopener noreferrer">Video</a>
+                    </div>
+                </div>
+            </article>
         </section>
 
+        <section class="section compact-section" id="exploring" aria-labelledby="exploring-title">
+            <div class="section-heading">
+                <p class="section-index">02</p>
+                <h2 id="exploring-title">Currently exploring</h2>
+            </div>
+            <div class="exploring-content">
+                <div class="text-block">
+                    <h3>Multi-hop reasoning</h3>
+                    <p>Studying how neural networks learn pointer-following algorithms, how those procedures generalize across reasoning depths, and where they fail.</p>
+                </div>
+                <img class="pointer-visual" src="assets/pointer-hopping.svg" alt="A pointer-following path hopping between indexed nodes" loading="lazy">
+            </div>
+        </section>
+
+        <section class="section compact-section" id="writing" aria-labelledby="writing-title">
+            <div class="section-heading">
+                <p class="section-index">03</p>
+                <h2 id="writing-title">Writing</h2>
+            </div>
+            <div class="writing-list">
+                <a href="https://medium.com/@ryuk7728/neural-networks-can-learn-to-compress-7b1021939cbf" target="_blank" rel="noopener noreferrer">
+                    <span>Neural Networks Can Learn to Compress</span>
+                    <span class="link-arrow" aria-hidden="true">↗</span>
+                </a>
+                <a href="https://medium.com/@ryuk7728/do-neurons-dream-of-handwritten-digits-af6631a8c449" target="_blank" rel="noopener noreferrer">
+                    <span>Do Neurons Dream of Handwritten Digits?</span>
+                    <span class="link-arrow" aria-hidden="true">↗</span>
+                </a>
+                <a href="https://www.linkedin.com/pulse/i-built-superhuman-ai-card-game-heres-how-did-pranay-agrawal-wew9c" target="_blank" rel="noopener noreferrer">
+                    <span>I Built a Superhuman AI for a Card Game</span>
+                    <span class="link-arrow" aria-hidden="true">↗</span>
+                </a>
+            </div>
+        </section>
+
+        <section class="section compact-section" id="about" aria-labelledby="about-title">
+            <div class="section-heading">
+                <p class="section-index">04</p>
+                <h2 id="about-title">About</h2>
+            </div>
+            <div class="about-grid">
+                <div class="text-block">
+                    <h3>Experience</h3>
+                    <p>Previously a Data Science Intern at <strong>Bajaj Finserv Health</strong>, working on fraud detection, frontier-LLM evaluation, and claims-processing automation with Python, FastAPI, and Selenium.</p>
+                </div>
+            </div>
+        </section>
     </main>
 
+    <footer class="site-footer">
+        <p>Based in Bengaluru, India.</p>
+        <a href="mailto:pranayagrawal7728@gmail.com">pranayagrawal7728@gmail.com</a>
+    </footer>
 </body>
 </html>
