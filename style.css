@@ -219,11 +219,13 @@ a:focus-visible {
 }
 
 .bot-visual {
+    height: 210px;
     background: #0e4937;
 }
 
 .bot-visual img {
-    object-position: center 57%;
+    object-fit: contain;
+    object-position: center;
 }
 
 .project-meta {
@@ -267,28 +269,10 @@ a:focus-visible {
     color: var(--accent);
 }
 
-.compact-section {
-    display: grid;
-    grid-template-columns: 244px minmax(0, 1fr);
-    gap: 0;
-}
-
-.compact-section .section-heading {
-    display: block;
-    margin: 0;
-}
-
-.compact-section .section-index {
-    margin-bottom: 7px;
-}
-
-.compact-section .section-heading h2 {
-    font-size: 23px;
-}
-
 .exploring-content {
     display: grid;
     gap: 24px;
+    padding-left: 46px;
 }
 
 .pointer-visual {
@@ -302,6 +286,7 @@ a:focus-visible {
 }
 
 .writing-list {
+    margin-left: 46px;
     border-top: 1px solid var(--line);
 }
 
@@ -328,6 +313,7 @@ a:focus-visible {
 
 .about-grid {
     max-width: 520px;
+    margin-left: 46px;
 }
 
 .site-footer {
@@ -419,9 +405,15 @@ a:focus-visible {
         height: min(49vw, 250px);
     }
 
-    .compact-section {
-        grid-template-columns: 1fr;
-        gap: 32px;
+    .bot-visual {
+        height: min(82vw, 360px);
+    }
+
+    .exploring-content,
+    .writing-list,
+    .about-grid {
+        margin-left: 0;
+        padding-left: 0;
     }
 
 }
